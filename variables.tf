@@ -1,4 +1,4 @@
-variable "name" {
+variable "zone_name" {
   description = "Contains the name of the initial database of this instance that was provided at create time,"
   type        = string
 

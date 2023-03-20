@@ -1,6 +1,6 @@
 
 resource "azurerm_dns_zone" "example-public" {
-  name                = var.name
+  name                = var.zone_name
   resource_group_name = var.resource_group_name
   # soa_record {
   #   expire_time = 2419200
